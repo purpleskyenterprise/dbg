@@ -1,0 +1,309 @@
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .mainHeader-banner .mainHeader__rightSide button {
+        display: none;
+       }
+       .mainHeader-banner .mainHeader__rightSide a.contact-no{
+        font-size: 0;
+       }
+       .mainHeader-banner .mainHeader__logo {
+        z-index: 2;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mainHeader-banner .mainHeader{
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    .menuBtn {
+        width: 3.5rem;
+    }
+    .mainHeader-banner .mainHeader__logo .mobile-logo {
+        display: block;
+        width: 73%;
+    
+    }
+    .mainHeader-banner .mainHeader{
+        height: 7rem;
+    }
+    .mainHeader-banner .mainHeader__rightSide a.contact-no i {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0;
+    }
+    .menuBtn{
+        margin: 0;
+    }
+    .mainHeader-banner .hero-sec .hero-main .male-imgCont .male-img{
+        width: 5rem;
+        margin: 0;
+    }
+    
+    .mainHeader-banner .hero-sec .hero-main .male-imgCont .male-img::after {
+        content: "";
+        position: absolute;
+        top: -17%;
+        left: 47%;
+        background: url(/assests/images/msg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: none;
+        height: 24px;
+    }
+    .mainHeader-banner .hero-sec .hero-main .title-txtSec .title h1 b::after {
+        content: "";
+        position: absolute;
+        top: 1.5rem;
+        left: 0;
+        right: 0;
+        background: url(/assests/images/Vectoryellow.png);
+    }
+    .mainHeader-banner .hero-sec .hero-main .title-txtSec .title h1 b::after {
+        content: "";
+        position: absolute;
+        top: 2.5rem;
+        left: 0;
+        right: 0;
+        background: url(/assests/images/Vectoryellow.png);
+        width: 100%;
+        height: 16px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .title-txtSec .subTitle {
+        position: absolute;
+        top: -33%;
+        right: 0;
+    }
+    .mainHeader-banner .hero-sec .hero-main .title-txtSec{
+        width: 100%;
+    }
+    .mainHeader-banner .hero-sec .hero-main .male-imgCont {
+        padding-top: 0rem;
+    }
+    .mainHeader-banner .hero-sec .hero-main .title-txtSec{
+        transform: translateY(8%);
+    }
+    .mainHeader-banner .hero-sec .hero-main .title-txtSec .title h1 {
+        color: #fff;
+        font-size: 27px;
+    }
+    .mainHeader-banner .hero-sec::after{
+        display: none;
+    }
+    .mainHeader-banner .hero-sec .hero-main .female-imgCont .female-img {
+        width: 12rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .mainHeader-banner .hero-sec {
+        margin-top: 3rem;
+    }
+    .mainHeader-banner .hero-sec .hero-main{
+        padding-bottom: 12rem;
+    }
+    .mainHeader-banner .hero-sec .hero-main .female-imgCont .female-img::after {
+        content: "";
+        position: absolute;
+        top: 35%;
+        left: -64%;
+        background: url(/assests/images/cArr.png);
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+      
+      .mainHeader-banner .hero-sec .hero-main .title-txtSec .subTitle h6 {
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+        background: linear-gradient(to right, #ffdd45, #3580f6, #ffdd45);
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: backgroundColorAnimation 5s infinite linear;
+      }
+      .mainHeader-banner .mainHeader .mainHeader-cont nav.navBar.navBar-active {
+        visibility: visible;
+        opacity: 1;
+        left: 0;
+        top: -8px;
+        width: 30rem;
+    }
+    
+    .body-overlay {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .body-overlay:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: #00000075;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    .menuBtn.menuBtn-active .menuBtn__line{
+        transition: all 0.5s ease-in-out;
+    }
+
+.menuBtn.menuBtn-active .menuBtn__line.two {
+    display: none;
+}
+
+.menuBtn.menuBtn-active .menuBtn__line.one {
+    transform: rotate(45deg);
+    top: 10px;
+}
+.menuBtn.menuBtn-active .menuBtn__line.three {
+    transform: rotate(-45deg);
+    bottom: 10px;
+}
+
+.menuBtn.menuBtn-active .menuBtn__line {
+    background: #dc3545;
+}
+.footer-sect .social-cont .foo-logo {
+    width: 14rem;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.page-title-container h1 {
+
+    font-size: 30px;
+}
+.contact-page-sec {
+    padding: 18px 0;
+}
+.contact-page-sec .content-left {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.about-mission{
+    padding: 30px 0;
+}
+.company-info .info-list li {
+    width: 48%;
+}
+.company-info .bg{
+    padding: 4px;
+}
+.who-choose-us {
+    padding: 8px 0;
+}
+
+.who-choose-us h2 {
+    font-size: 22px;
+    margin: 16px 0 4px;
+}
+
+.service-featured-courses {
+    padding: 6px 0;
+}
+
+section.service-featured-courses {}
+
+.service-featured-courses h3 {
+    font-size: 22px;
+}
+
+.service-featured-courses .course-list li {
+    width: 49%;
+    padding: 0 6px;
+    display: block;
+    margin: 0 0 12px;
+}
+
+
+.service-featured-courses .course-list .content-box {
+    padding: 10px;
+    min-height: auto;
+}
+
+.servicedatilsPage .service-featured-courses .content-box .title {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-featured-courses .course-list .img-box  {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.service-featured-courses .course-list .img-box img {
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+.service-featured-courses .content-box .custom-btn {
+    margin: 6px 0;
+}
+
+
+
+.customized-courses {
+    padding: 20px 0;
+}
+
+section.customized-courses {}
+
+.customized-courses h3 {
+    font-size: 22px;
+}
+
+
+
+.customized-courses .info-list li {
+    width: 48%;
+    margin-bottom: 18px;
+    border: 0px !important;
+}
+
+
+
+.customized-courses .info-list {
+    flex-wrap: wrap;
+}
+
+
+
+.customized-courses .info-list .title {
+    font-size: 12px;
+}
+
+
+
+.customized-courses .info-list .icon-box {
+    width: 60px;
+}
+.service-featured-courses .content-box .custom-btn a {
+    display: block;
+    padding: 6px;
+    text-align: center;
+  
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    margin: 9px 0;
+}
+}
