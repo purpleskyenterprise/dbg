@@ -2150,6 +2150,25 @@
 
 
  }
+ .testimonial-bgColor .custom-arrow {
+  position: absolute;
+  border: 0;
+  z-index: 9;
+  background: transparent;
+}
+
+.testimonial-bgColor .custom-arrow img {
+  width: 55%;
+}
+
+.testimonial-bgColor .custom-arrow.left-arrow {
+  left: 0px;
+}
+
+.testimonial-bgColor .custom-arrow.right-arrow {
+  right: -14px;
+  transform: rotate(180deg);
+}
  @media (max-width: 768px) {
    .testimonial-bgColor .client-ques-sect .client-quesCont .commas-icon figure::after {
      font-size: 3rem;

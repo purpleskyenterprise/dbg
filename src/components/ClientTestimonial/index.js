@@ -22,13 +22,24 @@ const responsive = {
   },
 };
 
+const CustomLeftArrow = ({ onClick }) => {
+  return (
+    <button className="custom-arrow left-arrow" onClick={onClick}>
+      <img src="/assests/images/leftCircleArrow.svg" alt="Left Arrow" />
+    </button>
+  );
+};
 
+const CustomRightArrow = ({ onClick }) => {
+  return (
+    <button className="custom-arrow right-arrow" onClick={onClick}>
+      <img src="/assests/images/rightCircleArrow.svg" alt="Right Arrow" />
+    </button>
+  );
+};
 
 const ClientTestimonial = () => {
-
-  const topReviewData = clientReviewData.filter((item,index) => {
-    return item.ratingStar >= 5;
-  })
+  const topReviewData = clientReviewData.filter((item) => item.ratingStar >= 5);
 
   const carouselRef = useRef(null);
 
@@ -51,12 +62,14 @@ const ClientTestimonial = () => {
             </div>
           </div>
         </div>
-        <Carousel 
+        <Carousel
           responsive={responsive}
           infinite={false}
           ref={carouselRef}
+          customLeftArrow={<CustomLeftArrow />}
+          customRightArrow={<CustomRightArrow />}
         >
-          {clientReviewData.map((clientReview, index) => (
+          {clientReviewData.map((clientReview) => (
             <div className="client-ques-sect" id={clientReview.id} key={clientReview.id}>
               <div className="client-quesCont">
                 <div className="commas-icon">
@@ -65,7 +78,7 @@ const ClientTestimonial = () => {
                   </figure>
                 </div>
                 <div className="client-feedbackCont mt-5">
-                  <h6>What <b> {clientReview.clientName} </b> Say</h6>
+                  <h6>What <b>{clientReview.clientName}</b> Say</h6>
                   <p>{clientReview.clientReviewText}</p>
                   <div className="client-feedback">
                     <div>
@@ -87,18 +100,16 @@ const ClientTestimonial = () => {
             </div>
           ))}
         </Carousel>
-        <div className='dynamicClickTop'>
+        <div className="dynamicClickTop">
           {topReviewData.map((item, index) => (
-            <div className={`topReview top${index+1}`} key={index}>
-              <div className='topClickSet' onClick={() => goToSlide(item.id-1)}>
+            <div className={`topReview top${index + 1}`} key={index}>
+              <div className="topClickSet" onClick={() => goToSlide(item.id - 1)}>
                 <img src={item.clientImg} alt={`users-${index + 1}`} />
-              
               </div>
             </div>
           ))}
         </div>
       </div>
-
     </div>
   );
 };

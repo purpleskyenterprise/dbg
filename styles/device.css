@@ -30,6 +30,8 @@
     }
     .mainHeader-banner .mainHeader{
         height: 7rem;
+        position: relative;
+        z-index: 99;
     }
     .mainHeader-banner .mainHeader__rightSide a.contact-no i {
         width: 3.5rem;
@@ -105,6 +107,8 @@
     }
     .mainHeader-banner .hero-sec {
         margin-top: 3rem;
+        position: relative;
+        z-index: 9;
     }
     .mainHeader-banner .hero-sec .hero-main{
         padding-bottom: 12rem;
@@ -282,6 +286,15 @@ section.customized-courses {}
 
 .customized-courses .info-list {
     flex-wrap: wrap;
+    margin:  20px 0 0;
+}
+.company-info {
+    margin: 0;
+    padding: 8px 0 0;
+}   
+.about-page-sec {
+    margin: 0;
+    padding: 10px 0;
 }
 
 
@@ -305,5 +318,80 @@ section.customized-courses {}
     color: #fff;
     position: relative;
     margin: 9px 0;
+}
+.topReview.top1 {
+    top: 50%;
+    left: 2%;
+}
+.topReview.top2 {
+    top: 40%;
+    left: 2%;
+}
+.topReview.top3 {
+    top: 60%;
+    left: 3%;
+    right: auto;
+}
+.topClickSet img {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.testimonial-bgColor .client-ques-sect .client-quesCont p {
+    font-size: 1.2rem;
+    color: #000;
+}
+.testimonial-bgColor .custom-arrow {
+    position: absolute;
+    border: 0;
+    z-index: 9;
+    background: transparent;
+}
+
+.testimonial-bgColor .custom-arrow img {
+    width: 55%;
+}
+
+.testimonial-bgColor .custom-arrow.left-arrow {
+    left: 47px;
+}
+
+.testimonial-bgColor .custom-arrow.right-arrow {
+    right: -14px;
+    transform: rotate(180deg);
+}
+.sales-growSect {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.digital-market-service {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.digital-business {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.digital-business .rating-sect {
+    flex-wrap: wrap;
+    
+    margin-top: 1rem;
+}
+.digital-business .rating-sect .rating-text {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+.about-advisor {
+    margin: 0;
+    padding: 0 0 20px;
+
+}
+.about-advisor h3 {
+   
+    font-size: 18px;
+    margin: 36px 0 8px 0;
+    font-weight: 600;
 }
 }

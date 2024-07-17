@@ -2,129 +2,52 @@ import React from 'react';
 import Link from 'next/link';
 
 const FooterMenu = () => {
+    const menuItems1 = [
+        { href: "#", text: "Popular Service" },
+        { href: "/dbg-team", text: "Team Member" },
+        { href: "/about", text: "About Us" },
+        { href: "#", text: "Blogs" },
+        { href: "#", text: "Pricing Package" },
+        { href: "#", text: "Reviews" },
+        { href: "/contact", text: "Contact" },
+    ];
+
+    const menuItems2 = [
+        { href: "/dbg-services/graphic-designing", text: "Graphic Designing" },
+        { href: "/dbg-services/web-development", text: "Web Development" },
+        { href: "/dbg-services/app-development", text: "App Development IOS/Android" },
+        { href: "#", text: "Product advertising" },
+        { href: "#", text: "Social Media Marketing" },
+        { href: "/dbg-services/seo-services", text: "Search Engine Optimization" },
+        { href: "#", text: "Google Extractor" },
+    ];
+
+    const renderMenuItems = (items) => {
+        return items.map((item, index) => (
+            <li key={index}>
+                <Link href={item.href}>
+                    
+                        <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
+                        {item.text}
+                   
+                </Link>
+            </li>
+        ));
+    };
+
     return (
         <>
             <div className="col-md-2">
                 <div className="serives-name">
                     <ul>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Popular Service
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Team Member
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/about">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    About Us
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Blogs
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Pricing Package
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Reviews
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/contact">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Contact
-                                </a>
-                            </Link>
-                        </li>
+                        {renderMenuItems(menuItems1)}
                     </ul>
                 </div>
             </div>
             <div className="col-md-3">
                 <div className="serives-name">
                     <ul>
-                        <li>
-                            <Link href="/dbg-services/graphic-designing">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Graphic Designing
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/dbg-services/web-development">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Web Development
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/dbg-services/app-development">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    App Development IOS/Android
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Product advertising
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Social Media Marketing
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/dbg-services/seo-services">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Search Engine Optimization
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <img className="mr-5" src="/assests/images/footer-icon/right-arrow.svg" alt="rgt_icon" />
-                                    Google Extractor
-                                </a>
-                            </Link>
-                        </li>
+                        {renderMenuItems(menuItems2)}
                     </ul>
                 </div>
             </div>

@@ -14,8 +14,8 @@ export default function     DbgTeamComp() {
     <div class={Style.cardInside}>
       <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Franklin Carlson" />
       <div class={Style.cardContent}>
-        <h3>franklin carlson</h3>
-        <p>UX Designer</p>
+        <h3>Shani Pandey</h3>
+        <p>Sr. Software Engg.</p>
         <ul>
           <li><a href="#"><i className="fa-brands fa-x-twitter"></i></a></li>
           <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
@@ -25,8 +25,8 @@ export default function     DbgTeamComp() {
     <div class={Style.cardInside}>
       <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Antonia Moore" />
       <div class={Style.cardContent}>
-        <h3>antonia moore</h3>
-        <p>product designer</p>
+        <h3>Harshit</h3>
+        <p>Product Designer</p>
         <ul>
           <li><a href="#"><i className="fa-brands fa-x-twitter"></i></a></li>
           <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
@@ -36,8 +36,8 @@ export default function     DbgTeamComp() {
     <div class={Style.cardInside}>
       <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Travis Lynch" />
       <div class={Style.cardContent}>
-        <h3>travis lynch</h3>
-        <p>web developer</p>
+        <h3>Rishabh Nagpal</h3>
+        <p>Product Manager</p>
         <ul>
           <li><a href="#"><i className="fa-brands fa-x-twitter"></i></a></li>
           <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>

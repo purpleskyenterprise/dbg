@@ -26,7 +26,7 @@ const ServiceBox = () => {
                         Dbg is a graphic design company that offers a wide range of graphic design services.
                     </p>
                     <Link href="/dbg-services/graphic-designing">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
                 <div className="card-medium web-develp">
@@ -39,7 +39,7 @@ const ServiceBox = () => {
                         We are a web development company that offers a wide range of web development services.
                     </p>
                     <Link href="/dbg-services/web-development">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
                 <div className="app-develp card-medium">
@@ -52,7 +52,7 @@ const ServiceBox = () => {
                         We are an app development company that offers a wide range of app development services.
                     </p>
                     <Link href="/dbg-services/app-development">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
                 <div className="product card-medium">
@@ -65,7 +65,7 @@ const ServiceBox = () => {
                         We are a product company that offers a wide range of product services.
                     </p>
                     <Link href="">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const ServiceBox = () => {
                         We are a social media marketing company that offers a wide range of social media marketing services.
                     </p>
                     <Link href="">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
                 <div className="src-engine-opt card-medium">
@@ -94,7 +94,7 @@ const ServiceBox = () => {
                         We are a search engine optimization company that offers a wide range of search engine optimization services.
                     </p>
                     <Link href="/dbg-services/seo-services">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
                 <div className="google-extractor card-medium">
@@ -107,7 +107,7 @@ const ServiceBox = () => {
                         We are a google extractor company that offers a wide range of google extractor services.
                     </p>
                     <Link href="">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
                 <div className="digital-market card-medium">
@@ -120,7 +120,7 @@ const ServiceBox = () => {
                         We are a digital marketing company that offers a wide range of digital marketing services.
                     </p>
                     <Link href="">
-                        <a className='fullLink'></a>
+                        <span className='fullLink'></span>
                     </Link>
                 </div>
             </div>
