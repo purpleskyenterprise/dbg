@@ -18,7 +18,7 @@ const Banner = () => {
                             <br/>to Grow your Business
                         </h1>
                         <p>
-                            Dbg is a digital marketing company that offers a wide range of digital marketing services. 
+                            <strong>DBG</strong> is a digital marketing company that offers a wide range of digital marketing services. 
                             We are a team of experienced professionals who have a passion for digital marketing.
                             Our goal is to help you grow your business by providing you with the best digital marketing services.
                         </p>

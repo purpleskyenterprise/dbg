@@ -23,7 +23,7 @@ const ServiceBox = () => {
                     <h4>Graphic Designing</h4>
                     
                     <p>
-                        Dbg is a graphic design company that offers a wide range of graphic design services.
+                        <starong>Dbg</starong> is a graphic design company that offers a wide range of graphic design services.
                     </p>
                     <Link href="/dbg-services/graphic-designing">
                         <span className='fullLink'></span>
@@ -119,7 +119,7 @@ const ServiceBox = () => {
                     <p>
                         We are a digital marketing company that offers a wide range of digital marketing services.
                     </p>
-                    <Link href="">
+                    <Link href="/dbg-services/digital-marketing">
                         <span className='fullLink'></span>
                     </Link>
                 </div>

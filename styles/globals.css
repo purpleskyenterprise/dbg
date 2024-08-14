@@ -27,6 +27,7 @@
  
  html {
    font-size: 62.5%;
+   font-family: "Outfit", sans-serif !important;
  }
  
  body {
@@ -34,6 +35,7 @@
    box-sizing: border-box;
    background-color: #F2F2F2;
    padding-right: 0 !important;
+   font-family: "Outfit", sans-serif !important;
  }
  a{
   text-decoration: none;
@@ -1091,7 +1093,7 @@
    -moz-border-radius: 0.5rem;
    -webkit-border-radius: 0.5rem;
    -ms-border-radius: 0.5rem;
-   border-radius: 0.5rem;
+   border-radius: 1rem;
    -moz-transition: 400ms;
    -webkit-transition: 400ms;
    -ms-transition: 400ms;
@@ -1159,7 +1161,7 @@
  }
  .btn.m-btn {
    font-size: 1.4rem;
-   padding: 1.2rem 1rem;
+   padding: 1.5rem 1.8rem;
    font-weight: 100;
  }
  @media (max-width: 480px) {
@@ -1417,12 +1419,13 @@
    font-size: 1.4rem;
    color: #fff;
    padding: 1rem;
-   border-radius: 0.5rem;
+   border-bottom: 2px solid transparent;
  }
  .mainHeader-banner .mainHeader .mainHeader-cont nav ul li a:hover, .mainHeader-banner .mainHeader .mainHeader-cont nav ul li a.active {
    background-color: transparent;
    transition: all 0.5s ease-in-out;
    color: #3580F6;
+   border-color: #3580F6;
  }
  .mainHeader-banner .mainHeader .mainHeader-cont nav ul li a i {
    color: #3580F6;
@@ -1863,7 +1866,9 @@
    position: absolute;
    right: 16px;
    top: 16px;
-   transition: all 0.2s ease-in-out;
+   transition: 0.9s;
+   background: transparent;
+  border-radius: 50%;
  }
  .digital-market-service .market-services-cards .card-medium h4 {
    color: #000;
@@ -1876,7 +1881,7 @@
    transition: all 0.9s ease-in-out;
  }
  .digital-market-service .market-services-cards .card-medium:hover {
-  background: #3580F6 ;;
+  background: #3580F6 ;
 }
 .digital-market-service .market-services-cards .card-medium:hover h4 {
  color: #fff;
@@ -1887,71 +1892,28 @@
  font-size: 1.2rem;
 }
 .digital-market-service .market-services-cards .card-medium:hover::after {
- content: url(/assests/images/digital-market-icon/black-arrow-right.svg);
+ /* content: url(/assests/images/digital-market-icon/black-arrow-right.svg);
        position: absolute;
   right: 16px;
   top: 16px;
   width: 36px;
   height: 36px;
-  background-color: #fff;
+background: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  filter: brightness(0.5);
+ 
 }
  .digital-market-service .market-services-cards .card-medium figure {
    margin-top: 2rem;
  }
- .digital-market-service .market-services-cards .card-medium.graphic-design {
+ .digital-market-service .market-services-cards .card-medium {
    padding: 30px 10px 35px 10px;
+   transition: all 0.9s ease-in-out;
  }
- .digital-market-service .market-services-cards .card-medium.web-develp {
-   padding: 30px 10px 35px 10px;
-   background: #3580F6 !important;
-   z-index: 4;
- }
- .digital-market-service .market-services-cards .card-medium.web-develp:hover{
-    background: #1E1E1E !important;
- }
- .digital-market-service .market-services-cards .card-medium.web-develp::after {
-   content: url(/assests/images/digital-market-icon/black-arrow-right.svg);
-   position: absolute;
-   right: 16px;
-   top: 16px;
-   width: 36px;
-   height: 36px;
-   background-color: #fff;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
- }
- .digital-market-service .market-services-cards .card-medium.web-develp h4 {
-   color: #fff;
-   font-weight: 400;
- }
- .digital-market-service .market-services-cards .card-medium.web-develp p {
-   color: #B6D0FA;
-   font-size: 1.2rem;
- }
- .digital-market-service .market-services-cards .card-medium.app-develp {
-   padding: 30px 10px 35px 10px;
- }
- .digital-market-service .market-services-cards .card-medium.product {
-   padding: 30px 10px 35px 10px;
- }
- .digital-market-service .market-services-cards .card-medium.media-market {
-   padding: 30px 10px 35px 10px;
- }
- .digital-market-service .market-services-cards .card-medium.src-engine-opt {
-   padding: 30px 10px 35px 10px;
- }
- .digital-market-service .market-services-cards .card-medium.google-extractor {
-   padding: 30px 10px 35px 10px;
- }
- .digital-market-service .market-services-cards .card-medium.digital-market {
-   padding: 30px 10px 35px 10px;
- }
+
  
  .quality-dedicated-bgColor {
    padding-top: 2rem;
@@ -2042,6 +2004,9 @@
  .digital-business .digital-business-cards .card-large ul li {
    font-size: 1.2rem;
  }
+ .digital-business .digital-business-cards .card-large ul li img {
+  width: 20px;
+}
  .digital-business .digital-business-cards .card-large.strategy-research {
    padding: 0px 30px 35px 30px;
  }
@@ -2111,6 +2076,9 @@
    font-size: 1.2rem;
    font-weight: 500;
    color: #000;
+ }
+ .delivered-projects-cont .org-room-dels p a img {
+  margin-right: 4px;
  }
  
  .testimonial-bgColor {
@@ -2257,6 +2225,7 @@
  .footer-sect .serives-name ul li a {
    color: #969696;
    font-size: 1.6rem;
+   display: flex;
  }
  .footer-sect .join-sect {
    display: flex;
@@ -2273,8 +2242,8 @@
    color: #3580F6;
  }
  .footer-sect .join-sect a .booster-icon {
-   width: 3rem;
-   height: 3rem;
+   width: 4rem;
+   height: 4rem;
    border-radius: 50%;
    border: solid 0.1rem #3580F6;
    margin-right: 8px;

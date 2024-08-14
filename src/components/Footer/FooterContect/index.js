@@ -19,7 +19,7 @@ const FooterContact = () => {
             <li>
                 <a href="#;">
                     <img className="mr-5" src="/assests/images/footer-icon/call.svg" alt="call_icon" />
-                    +91-123-456-7890, +91-123-456-7890
+                    +91-96-5023-2509
                 </a>
             </li>
         </ul>

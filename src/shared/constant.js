@@ -294,6 +294,67 @@ export const servicesPageData ={
                 "keyTitle": "Competitive Pricing"
             }
         ]
+      },
+      {
+        "Title": "Digital-Marketing",
+        "h3Headeing": "DBG Digital Marketing Serivces",
+        "summary": "DBG is a leading digital marketing company that offers a wide range of services to help you reach your target audience and achieve your business goals. Our team of experts will work with you to develop a digital marketing strategy that is tailored to your specific needs and requirements, ensuring that you can attract more customers and grow your business. Whether you are looking to improve your social media presence, increase your website traffic, or enhance your online visibility, we have the skills and experience to help you succeed. Contact us today to learn more about our digital marketing services and how we can help you take your business to the next level.",
+        "img": "/assests/images/innerpage/dbg-digital-marketing.png",
+        "Featured": [
+            {
+                "FeaturedTitle": "Social Media Marketing",
+                "FeaturedImg": "/assests/images/innerpage/understanding-financial-statements.jpg"
+            },
+            {
+                "FeaturedTitle": "Search Engine Marketing",
+                "FeaturedImg": "/assests/images/innerpage/sustainability-esg-training.jpg"
+            },
+            {
+                "FeaturedTitle": "Content Marketing",
+                "FeaturedImg": "/assests/images/innerpage/becoming-assertive-communicator.jpg"
+            },
+            {
+                "FeaturedTitle": "Email Marketing",
+                "FeaturedImg": "/assests/images/innerpage/advanced-credit-analysis.jpg"
+            },
+            {
+                "FeaturedTitle": "Influencer Marketing",
+                "FeaturedImg": "/assests/images/innerpage/finance-non-Finance-professionals.jpg"
+            },
+            {
+                "FeaturedTitle": "Affiliate Marketing",
+                "FeaturedImg": "/assests/images/innerpage/credit-recommendation.jpg"
+            }
+        ],
+        "customized": [
+            {
+                "customizedTitle": "Customized Digital Marketing Services",
+                "customizedImg": "/assests/images/innerpage/customized-courses.jpg",
+                "customizedSummary": "At DBG, we understand that every business is unique, and that is why we offer customized digital marketing services to help you reach your target audience and achieve your business goals. Our team of experts will work with you to develop a digital marketing strategy that is tailored to your specific needs and requirements, ensuring that you can attract more customers and grow your business."
+            }
+        ],
+        "keyPoints4": [
+            {
+                "keyIcon": "/assests/images/innerpage/expert-faculty.png",
+                "keyTitle": "Expert Dedicated Team"
+            },
+            {
+                "keyIcon": "/assests/images/innerpage/flexible-learning-options.png",
+                "keyTitle": "Quality Assurance"
+            },
+            {
+                "keyIcon": "/assests/images/innerpage/customized-training.png",
+                "keyTitle": "24/7 Support"
+            },
+            {
+                "keyIcon": "/assests/images/innerpage/networking-opportunities.png",
+                "keyTitle": "Competitive Pricing"
+            }
+        ]
+
+        
+
+
       }
   ]
 }
