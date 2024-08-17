@@ -11,22 +11,22 @@ const FooterAddress = () => {
                     </p>
                     <ul>
                         <li>
-                            <a href="#;">
+                            <a href="https://www.instagram.com/digitalbusinessgrowers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                                 <img src="/assests/images/footer-icon/facebook.svg" alt="face-icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="#;">
+                            <a href="https://www.instagram.com/digitalbusinessgrowers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                                 <img src="/assests/images/footer-icon/insta.svg" alt="insta-icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="#;">
+                            <a href="https://www.linkedin.com/company/digital-business-growers/">
                                 <img src="/assests/images/footer-icon/linkedin.svg" alt="link-icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="#;">
+                            <a href="#">
                                 <img src="/assests/images/footer-icon/x.svg" alt="x-icon" />
                             </a>
                         </li>

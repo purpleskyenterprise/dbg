@@ -9,7 +9,7 @@ export const clientReviewData = [
   {
     "id" : 2,
     "clientName": "Jane Smith",
-    "clientImg": "/assests/images/users02.svg",
+    "clientImg": "/assests/images/user_1.png",
     "ratingStar": 5,
     "clientReviewText": "Digital Business Grower's IT Solutions transformed our digital presence. Their web development and SEO services were particularly impressive, helping us rank higher on search engines and attract more customers. The graphic design team created beautiful visuals that perfectly captured our brand's essence. Overall, an excellent company to work with!"
   },
@@ -23,7 +23,7 @@ export const clientReviewData = [
   {
     "id" : 4,
     "clientName": "Robert Brown",
-    "clientImg": "/assests/images/users01.svg",
+    "clientImg": "/assests/images/user_1.png",
     "ratingStar": 5,
     "clientReviewText": "The team at Digital Business Grower's IT Solutions is exceptional. They provided us with comprehensive web development and graphic design services that significantly improved our website's usability and aesthetic appeal. Their SEO and SMO efforts also drove substantial traffic to our site. Great experience overall!"
   },
@@ -44,7 +44,7 @@ export const clientReviewData = [
   {
     "id" : 7,
     "clientName": "Jessica Martinez",
-    "clientImg": "/assests/images/users04.svg",
+    "clientImg": "/assests/images/user_1.png",
     "ratingStar": 5,
     "clientReviewText": "We hired Digital Business Grower's IT Solutions for app development and were thoroughly impressed with their work. The final product was user-friendly and met all our requirements. Their graphic design, SEO, and SMO services also helped us achieve our marketing goals. Fantastic team to work with!"
   },
@@ -57,8 +57,8 @@ export const clientReviewData = [
   },
   {
     "id" : 9,
-    "clientName": "Shani Pandey",
-    "clientImg": "https://via.placeholder.com/300x200?text=SP",
+    "clientName": "Sophia Garcia",
+    "clientImg": "https://via.placeholder.com/300x200?text=SG",
     "ratingStar": 4,
     "clientReviewText": "We partnered with Digital Business Grower's IT Solutions for web development and were blown away by their expertise and professionalism. The website they delivered was functional and visually stunning. Their SEO and SMO strategies also helped us increase our online visibility. Excellent company to work with!"
   }
